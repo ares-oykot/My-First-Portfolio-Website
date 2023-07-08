@@ -12,6 +12,7 @@ body {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    /* margin-bottom: 0px; */
 }
 
 .section-description {
@@ -19,6 +20,7 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    /* margin-top: 0px; */
 }
 
 .btn-primary {
@@ -129,4 +131,23 @@ main{
 
 .about-info{
     text-align: center;
+}
+
+.info-title{
+    margin-bottom: 0px;
+}
+
+.info-description{
+    color: #757575;
+    margin-top: 5px;
+}
+
+#what-i-do-description{
+    padding: 0px 150px;
+}
+
+
+/* skills section */
+.skills-container{
+    display: flex;
 }
